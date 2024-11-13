@@ -1,0 +1,27 @@
+/* src/styles/ProductCard.module.css */
+.productCard {
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.productCard img {
+  width: 100%;
+  height: auto;
+}
+
+.rating {
+  color: #ffc107;
+}
+
+.productCard img {
+  display: block;
+  margin: 0 auto;
+}
+
+.rating {
+  color: #ffc107;
+  margin-top: 10px;
+  font-size: 1.2em;
+}
